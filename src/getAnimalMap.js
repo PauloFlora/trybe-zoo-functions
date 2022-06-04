@@ -2,8 +2,6 @@ const data = require('../data/zoo_data');
 
 const { species } = data;
 
-// Solução utilizando reduce encontrada no repositório de Gabriel Rodrigues.
-
 function getReport() {
   return species.reduce((acc, animal) => {
     const local = animal.location;
